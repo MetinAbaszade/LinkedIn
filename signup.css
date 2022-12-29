@@ -1,0 +1,109 @@
+body {
+    background-color: #f3f2ef;
+}
+
+.w10 {
+    width: 15%;
+}
+
+
+label.error {
+    color: red;
+    font-size: 12px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+p.error {
+    border-color: red !important;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+}
+
+#pass {
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+}
+
+#showpass {
+    border: 1px solid black;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+}
+
+div.error {
+    border: 1px solid red;
+}
+
+label {
+    margin-bottom: 0 !important;
+}
+
+#pass {
+    outline: none;
+}
+
+input[type="submit"] {
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: all 150ms ease-out;
+    background-color: #0A66C2;
+}
+
+input[type="password"] {
+    width: 80%;
+}
+
+input[type="submit"]:hover {
+    background-color: #004182;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+footer div a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #666666;
+}
+
+footer div p {
+    font-size: 12px;
+}
+
+.buttonhover {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.buttonhover:hover {
+    background-color: var(--mavi);
+    text-decoration: underline;
+}
+
+main {
+    font-size: 14px;
+}
+
+.inputwithoutdiv {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#formdiv {
+    box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.27);
+    width: 450px;
+}
+
+select{
+    font-size: 13px!important;
+}

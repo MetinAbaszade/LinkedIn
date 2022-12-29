@@ -1,0 +1,81 @@
+:root {
+    --mavi: #d0e8ff;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: all 150ms ease-out;
+    background-color: #0A66C2;
+}
+
+input[type="submit"]:hover {
+    background-color: #004182;
+}
+
+.buttonhover {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.buttonhover:hover {
+    background-color: var(--mavi);
+    text-decoration: underline;
+}
+
+#joinnow {
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+#joinnow:hover {
+    background-color: var(--mavi);
+    text-decoration: underline;
+}
+
+
+
+footer div a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #666666;
+}
+
+footer div p {
+    font-size: 12px;
+}
+
+
+
+#input {
+    border: 1px solid #ced4da;
+    transition: all 200ms ease-out;
+    border-radius: 5px;
+}
+
+#input input {
+    width: 80%;
+}
+
+#input:focus-within {
+    border: 1px solid #0A66C2;
+    box-shadow: 0px 0px 2px 1px #0A66C2;
+
+}
+
+#showpass {
+    color: #0a66c2;
+    background-color: transparent;
+}
+
+#showpass:hover {
+    background-color: var(--mavi);
+    border-radius: 25px;
+}

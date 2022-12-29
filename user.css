@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+#div1 {
+    background-color: #f3f2ef;
+}
+
+#div1 img {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+}
+
+#div1 button {
+    border-radius: 20px;
+    background-color: #0A66C2;
+    color: white;
+    font-size:larger;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
